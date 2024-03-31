@@ -1,19 +1,23 @@
 name: tinda_test
 description: "A new Flutter project."
-publish_to: 'none' 
+publish_to: 'none'
 version: 0.1.0
 
-environment: 
+environment:
   sdk: '>=3.3.2 <4.0.0'
 
 dependencies:
+  circle_nav_bar: ^2.0.1+1
   flutter:
     sdk: flutter
+  persistent_bottom_nav_bar: ^5.0.2
+  persistent_bottom_nav_bar_v2: ^5.1.0
+  swipe_cards: ^2.0.0+1
 
 dev_dependencies:
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
